@@ -202,7 +202,9 @@ ol {
   background-color: transparent;
   border: 1px solid #fff;
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family:
+    Fira Sans Condensed,
+    sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.6px;
@@ -232,7 +234,8 @@ ol {
 }
 
 .search-form__submit-button {
-  margin-top: 17px;
+  align-self: self-end;
+  margin-bottom: 1px;
   min-width: 194px;
 }
 
@@ -265,13 +268,13 @@ ol {
   height: 299px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 30px;
   overflow-y: auto;
   width: max-content;
 }
 
 .content__list-item {
   width: 100%;
+  margin-bottom: 25px;
 }
 
 .content__card-link {
@@ -341,6 +344,10 @@ ol {
   block-size: 103px;
   object-position: center;
   background-size: cover;
+}
+
+.more-button-template {
+  align-self: flex-end;
 }
 
 .more-button {

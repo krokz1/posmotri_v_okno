@@ -310,6 +310,7 @@ ol {
 }
 
 .content__video-card {
+  min-width: 398px;
   display: flex;
   padding: 2px;
   flex-direction: row;

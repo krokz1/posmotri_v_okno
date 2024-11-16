@@ -219,13 +219,13 @@ ol {
   outline: none;
 }
 
+.button:hover {
+  text-decoration: underline;
+}
+
 .button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 2px;
-}
-
-.button:hover {
-  text-decoration: underline;
 }
 
 .button:active {
@@ -275,6 +275,14 @@ ol {
 .content__list-item {
   width: 100%;
   margin-bottom: 25px;
+}
+
+.content__list-item:nth-last-child(2) {
+  margin-bottom: 0px;
+}
+
+.content__list-item:nth-last-child(1) {
+  margin-bottom: 0px;
 }
 
 .content__card-link {
@@ -342,6 +350,7 @@ ol {
 .content__video-card-thumbnail {
   inline-size: 194px;
   block-size: 103px;
+  object-fit: cover;
   object-position: center;
   background-size: cover;
 }
@@ -352,4 +361,9 @@ ol {
 
 .more-button {
   width: 399px;
+}
+
+.more-button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
 }

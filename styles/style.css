@@ -277,12 +277,8 @@ ol {
   margin-bottom: 25px;
 }
 
-.content__list-item:nth-last-child(2) {
-  margin-bottom: 0px;
-}
-
 .content__list-item:nth-last-child(1) {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .content__card-link {

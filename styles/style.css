@@ -322,6 +322,7 @@ ol {
   flex-direction: column;
   flex-grow: 1;
   gap: 6px;
+  max-width: 180px;
 }
 
 .content__video-card-title {
@@ -332,6 +333,7 @@ ol {
   line-height: 100%;
   text-transform: uppercase;
   text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .content__video-card-description {
